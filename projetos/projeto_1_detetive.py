@@ -4,9 +4,6 @@ import colorama
 import os
 
 class Detective:
-    
-    def __init__(self, answer = 0):
-        self.__answer = answer
 
     def colors(self):
         colorama.init()
