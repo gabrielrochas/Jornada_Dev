@@ -3,8 +3,8 @@ from random import randint # Rantint para escolher as 3 opções de self.__cansa
 class Personagem:
     def __init__(self): # Método construtor da Class Personagem.
         self.__fome = True
-        self.__cansado = ' ' # 0 não cansado, 1 pouco cansado, 2 muito cansado
-        self.__descansar = randint(0,2)
+        self.__cansado = ' ' 
+        self.__descansar = randint(0,2) # 0 não cansado, 1 pouco cansado, 2 muito cansado
         self.__experiencia = ' '
         self.__xp = 0
 
